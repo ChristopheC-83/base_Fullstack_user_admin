@@ -13,4 +13,19 @@
     color: #f1f1f1;
     margin: 0;
   }
+  .spacer
+  {
+  flex-grow: 1;
+  }
+.icones-header{
+  display: flex;
+  color : #f1f1f1;
+  width: 25%;
+  @include flexMid;
+  justify-content: space-around;
+}
+  .icone-header{
+    text-align: right;
+    font-size:  clamp(16px, calc(14px + 0.6vw), 22px);
+  }
 }

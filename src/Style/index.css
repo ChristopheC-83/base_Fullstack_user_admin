@@ -111,14 +111,27 @@ p {
   color: #f1f1f1;
   margin: 0;
 }
+.header .spacer {
+  flex-grow: 1;
+}
+.header .icones-header {
+  display: flex;
+  color: #f1f1f1;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .icone-header {
+  text-align: right;
+  font-size: clamp(16px, 14px + 0.6vw, 22px);
+}
 
 .footer {
   width: 100%;
   background: linear-gradient(0deg, rgb(36, 36, 36) 0%, rgb(99, 99, 99) 49%, rgb(36, 36, 36) 100%);
   padding: 10px 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .footer h3 {
   color: #f1f1f1;
