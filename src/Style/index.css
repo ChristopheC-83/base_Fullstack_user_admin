@@ -85,6 +85,23 @@ p {
   font-size: clamp(14px, 12px + 0.4vw, 18px);
 }
 
+.dnone {
+  display: none;
+}
+
+.flexMid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.posMid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .main {
   width: 100%;
   height: 100vh;
@@ -114,7 +131,7 @@ p {
 .header .spacer {
   flex-grow: 1;
 }
-.header .icones-header {
+.header .icone-header-container {
   display: flex;
   color: #f1f1f1;
   width: 25%;
@@ -150,4 +167,8 @@ p {
 
 p {
   text-align: left;
+}
+
+.dnone {
+  display: none;
 }/*# sourceMappingURL=index.css.map */

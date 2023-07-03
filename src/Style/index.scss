@@ -1,6 +1,7 @@
 @import "./libs/reset";
 @import "./libs/variables";
 @import "./libs/mixins";
+@import "./libs/utilities";
 @import "./sous-fichiers/main";
 @import "./sous-fichiers/header";
 @import "./sous-fichiers/footer";
@@ -17,4 +18,8 @@ p {
 
 p {
   text-align: left;
+}
+
+.dnone{
+display: none;
 }
