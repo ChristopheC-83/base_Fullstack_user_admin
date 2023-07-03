@@ -11,7 +11,7 @@ export default function Header() {
       <h1>Header</h1>
       <div className="spacer"></div>
 
-      <div className="icone-header-container connected dnone">
+      <div className="icone-header-container connected ">
         <div className="icone-header FaUserPlus">
           <FaUserPlus />
         </div>
@@ -20,7 +20,7 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="icone-header-container disconnected">
+      <div className="icone-header-container disconnected dnone">
         <div className="icone-header BsPencilFill">
           <BsPencilFill />
         </div>

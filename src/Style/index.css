@@ -131,7 +131,8 @@ p {
 .header .spacer {
   flex-grow: 1;
 }
-.header .icone-header-container {
+
+.icone-header-container {
   display: flex;
   color: #f1f1f1;
   width: 25%;
@@ -140,7 +141,8 @@ p {
   align-items: center;
   justify-content: space-around;
 }
-.header .icone-header {
+
+.icone-header {
   text-align: right;
   font-size: clamp(16px, 14px + 0.6vw, 22px);
 }
