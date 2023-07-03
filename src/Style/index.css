@@ -147,6 +147,10 @@ p {
   font-size: clamp(16px, 14px + 0.6vw, 22px);
 }
 
+a {
+  color: #f1f1f1;
+}
+
 .footer {
   width: 100%;
   background: linear-gradient(0deg, rgb(36, 36, 36) 0%, rgb(99, 99, 99) 49%, rgb(36, 36, 36) 100%);
